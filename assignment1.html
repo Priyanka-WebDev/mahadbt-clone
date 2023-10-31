@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment1</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family:'PT sans',sans-serif;
+            background: #ccc;
+            text-transform: capitalize;
+        }
+        #form_1{
+            border: 2px solid #252529;
+            width: 50%;
+            text-align: left;
+            padding: 40px;
+            border-radius: 6px;
+            background: #fff;
+            max-width: 100%;
+            margin: 20px;
+            
+        }
+        #form_1 input,select{
+            border-radius: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            padding: 10px;
+          
+            width: 100%;
+            line-height: 1.6;
+        }
+        #form_1 b{
+            padding: 20px;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+        input[type=submit]{
+            background: blue;
+            border-radius: none;
+            color: #fff;
+        }
+        #form_1 p{
+            color: red;
+            text-align: center;
+        }
+        #form_1 option:hover{
+            border: 1px solid white;
+            background-color: #fff;
+            color: #252529;
+        }
+        #cnt2{
+            width: 50%;
+            background: #fff;
+            text-align: left;
+            padding: 40px;
+            background: #ccc;
+           
+        }
+        #cnt2 h1{
+            font-size:30px ;
+        }
+        #cnt2 p{
+            font-size:20px ;
+            padding: 10px;
+            background-color:#fff;
+            border-radius: 4px;
+        }
+        .slect{
+            border: 2px solid black;
+        }
+        .slect option{
+            border: 2px solid #252529;  
+            color: #252529;
+            border-bottom: 2px solid black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            
+            padding-bottom: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form action="get" id="form_1">
+    <b>Scolarship Test Registration</b><br> <br>
+    <input type="text" value="Name"><br><br>
+    <input type="email" name="email" id="" value="Email"><br><br>
+    <input type="tel" name="tel" id="" value="Mobile No"><br><br>
+    <select name="a" id="" class="slect">
+        <option value="a">UG Degree</option>
+        <option value="a">B.Sc/B.Sc(Hons.)</option>
+        <option value="a">B.C.A/B.C.A(Hons.)</option>
+        <option value="a">B.Com/B.Com(Hons.)</option>
+        <option value="a">B.E/B.Tech</option>
+        <option value="a">B.A/B.A(Hons.)</option>
+        <option value="a">BBA/BBM/BMS</option>
+        <option value="a">B.Pharma</option>
+        <option value="a">Others</option>
+    </select><br><br>
+    <select name="b" id="" class="slect">
+        <option value="b">Year of Graduation</option> 
+        <option value="b">Before 2019</option>
+        <option value="b">2019</option>
+        <option value="b">2020</option>
+        <option value="b">2021</option>
+        <option value="b">2022</option>
+        <option value="b">2023</option>
+        <option value="b">2024</option>
+        <option value="b">2025</option>
+        <option value="b">2026</option>
+        <option value="b">After 2026</option>
+    </select><br><br>
+    <select name="c" id="" class="slect">
+        <option value="c">Preferred Program</option>
+        <option value="c">Data Analytics</option>
+        <option value="c">Software Development</option>
+    </select><br><br>
+    <select name="d" id="" class="slect">
+        <option value="d">Preferred Center</option>
+        <option value="d">Classroom-Banglore</option>
+        <option value="d">Classroom-Chennai</option>
+        <option value="d">Classroom-Hydrabad</option>
+    </select><br><br>
+    <input type="submit" value="START TEST">
+    <p>Test Deadline:Today</p>
+    </form>
+    <div id="cnt2">
+        <h1>How the test works</h1>
+        <p>15 minutes online test</p>
+        <p>15 multiple choice questions</p>
+        <p>Questions on critical reasoning, qantative & verbal ability</p>
+    </div>
+
+</body>
+</html>
